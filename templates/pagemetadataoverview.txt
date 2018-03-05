@@ -1,0 +1,5 @@
+<p>
+  <ac:structured-macro ac:name="detailssummary" ac:schema-version="2" ac:macro-id="ee1443cf-4090-4c2c-8194-5960fb037814">
+    <ac:parameter ac:name="cql">label = &quot;%LABEL%&quot; and space = currentSpace() and parent = &quot;%PAGEID%&quot;</ac:parameter>
+  </ac:structured-macro>
+</p>
