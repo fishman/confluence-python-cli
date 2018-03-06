@@ -353,7 +353,7 @@ def Actions(token,xml_server,args,content):
         elif args.action == "getpagesummary":
             page = ConfluencePage(token,xml_server,args.name,args.spacekey,content).get()
             print args.delimiter.join((
-             page['id'], page['space'], page['parentId'], page['title'], page['url']))
+             page['id'], page['space'].encode("utf-8"), page['parentId'], page['title'].encode("utf-8"), page['url']))
 
         elif args.action == "listpages":
             if args.spacekey == "":
